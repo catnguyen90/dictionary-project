@@ -1,3 +1,4 @@
+import icon from "./dictionary-icon.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -5,11 +6,13 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header img-fluid">
+          <img src={icon} className="App-logo" alt="logo" />
+        </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="text-center mt=5">Coded by Cathy Nguyen</footer>
+        <footer className="text-center mb-4">Coded by Cathy Nguyen</footer>
       </div>
     </div>
   );

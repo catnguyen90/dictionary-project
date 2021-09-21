@@ -12,7 +12,33 @@ function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="text-center mb-4">Coded by Cathy Nguyen</footer>
+        <footer className="text-center mb-4">
+          This project was coded by{" "}
+          <a
+            href="https://vibrant-goldberg-47672a.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Cathy Nguyen
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/catnguyen90/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            open-sourced on Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://loving-meitner-547ef9.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );

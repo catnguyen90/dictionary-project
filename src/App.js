@@ -1,4 +1,5 @@
 import icon from "./dictionary-icon.png";
+import floral from "./floral.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,7 +8,9 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="App-header img-fluid">
+          <img src={floral} className="App-floral" alt="floral" />
           <img src={icon} className="App-logo" alt="logo" />
+          <img src={floral} className="App-floral" alt="floral" />
         </header>
         <main>
           <Dictionary defaultKeyword="sunset" />
